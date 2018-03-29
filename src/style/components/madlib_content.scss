@@ -8,9 +8,24 @@
 
 }
 
-.content-wrapper{
+.content-wrapper {
     background-color: #f2f2f2;
     padding: 42px;
     margin-top: -22px;
     border-radius: 4px;
+}
+
+.black-label {
+    background-color: #000;
+    border-radius: 100px;
+    width: 18px;
+    height: 18px;
+    font-size: 12px;
+    text-align: center;
+    color: white;
+    margin: 5px;
+}
+
+.bold-text {
+    color: $clearBlue;
 }
