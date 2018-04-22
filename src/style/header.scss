@@ -1,19 +1,12 @@
 .backgroundSkew {
-    width: 100vw;
-    height: 700px;
-    background-color: $darkGray;
-    transform: skewY(-10deg);
-    margin-top: -17rem;
-    padding-top: 17rem;
-    border-bottom: 1rem solid $bottegaGreen;
-
+    clip-path: ellipse(900px 700px at 10% 20%);
+    background-color: $deepred;
 }
 
-.backgroundSkew > * {
-    transform: skewY(10deg);
-}
 
-.madlib-heading {
+
+
+.christmas-heading {
     text-align: center;
     margin: 20px;
     padding-top: 46px;
@@ -22,8 +15,8 @@
     font-family: $font-primary;
 }
 
-.madlib-subheading {
+.christmas-subheading {
     margin-bottom: 46px;
-    color: rgba(255,255,255,.75);
+    color: $tealgreen;
     font-size: 15px;
 }

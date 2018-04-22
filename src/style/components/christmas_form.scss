@@ -7,15 +7,17 @@
 }
 
 .card {
-    width: 86vw;
+    width: 50vw;
     border-radius: 7px;
     box-shadow: 0 4px 30px 0 rgba(0,0,0,0.75);
-    padding: 50px 80px;
-    
+    padding: 20px 20px;
+  
 }
 
 .input-wrapper {
-    margin: 36px;
+    margin: 20px;
+   left: 20%;
+
 }
 
 input {
@@ -35,10 +37,10 @@ input {
 }
 
 .green-label {
-    background-color: $bottegaGreen;
-    border-radius: 100px;
-    width: 26px;
-    height: 26px;
+    background-color: $deepred;
+    border-radius: 10px;
+    width: 40px;
+    height: 25px;
     font-size: 18px;
     text-align: center;
     color: white;
@@ -55,13 +57,13 @@ input {
 
 .generate-button {
     @include buttonStyles;
-    background-color: $bottegaGreen;
+    background-color: $deepred;
     }
 
 
 .clear-button, a {
     @include buttonStyles;
-    background-color: $clearBlue;
+    background-color: $tealgreen;
     padding-top: 9px;
     text-align: center;
 }
